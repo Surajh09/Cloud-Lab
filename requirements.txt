@@ -16,6 +16,7 @@ comm==0.2.0
 debugpy==1.8.0
 decorator==5.1.1
 defusedxml==0.7.1
+django==3.2.19
 executing==2.0.1
 fastjsonschema==2.19.0
 fqdn==1.5.1
