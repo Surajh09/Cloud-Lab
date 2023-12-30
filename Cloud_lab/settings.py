@@ -26,7 +26,7 @@ SECRET_KEY = "hfkjwhfo3wu9ruwuhfiejfo"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = "True"
 
-ALLOWED_HOSTS = ["https://cloud-lab-t8hn.onrender.com"]
+ALLOWED_HOSTS = ["cloud-lab-t8hn.onrender.com"]
 
 # Application definition
 
