@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <div class="lg:w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+          <h2 class="text-sm title-font text-gray-500 tracking-widest">SORTING</h2>
+          <h1 class="text-white text-3xl title-font font-medium mb-4">Bubble Sort</h1>
+          <div class="flex mb-4">
+            <a class="flex-grow text-green-400 border-b-2 border-green-500 py-2 text-lg px-1">Description</a>
+            <a class="flex-grow border-b-2 border-gray-800 py-2 text-lg px-1">Reviews</a>
+            <a class="flex-grow border-b-2 border-gray-800 py-2 text-lg px-1">Details</a>
+          </div>
+          <p class="leading-relaxed mb-4">Bubble Sort is an iterative sorting algorithm that imitates the movement of bubbles in sparkling water. The bubbles represents the elements of the data structure.
+
+            The bigger bubbles reach the top faster than smaller bubbles, and this algorithm works in the same way. It iterates through the data structure and for each cycle compares the current element with the next one, swapping them if they are in the wrong order.
+            
+            It's a simple algorithm to implement, but not much efficient: on average, quadratic sorting algorithms with the same time complexity such as Selection Sort or Insertion Sort perform better.
+            It has several variants to improve its performances, such as Shaker Sort, Odd Even Sort and Comb Sort.</p>
+          <div class="flex border-t border-gray-800 py-2">
+            <span class="text-gray-500">Time Complexity</span>
+            <span class="ml-auto text-white">O(n2)</span>
+          </div>
+          <div class="flex border-t border-gray-800 py-2">
+            <span class="text-gray-500">Stability</span>
+            <span class="ml-auto text-white">Stable</span>
+          </div>
+          <div class="flex">
+            <span class="title-font font-medium text-2xl text-white">Simulation</span>
+            
+            <button class="flex ml-auto text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">TRY</button>
+          </div>
+        </div>
+        <video alt="Bubble Sort" class="lg: w-240 w-full lg:h-auto h-120 object-cover object-center rounded" src="{% static 'video/Bubble.mp4' %}" preload="auto" control autoplay id="autoplay">
+      </div>
+    </div>
+  </section>
+{% endblock content %}

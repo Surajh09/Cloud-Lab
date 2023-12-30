@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<body>
+    <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                <div class="lg: w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+                    <h2 class="text-sm title-font text-gray-500 tracking-widest">SORTS</h2>
+                    <h1 class="text-white text-3xl title-font font-medium mb-4">Insertion Sort</h1>
+                    <div class="flex mb-4">
+                        <a
+                            class="flex-grow text-green-400 border-b-2 border-green-500 py-2 text-lg px-1">Description</a>
+                        <a class="flex-grow border-b-2 border-gray-800 py-2 text-lg px-1">Reviews</a>
+                        <a class="flex-grow border-b-2 border-gray-800 py-2 text-lg px-1">Details</a>
+                    </div>
+                    <p class="leading-relaxed mb-4">
+                        Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a
+                        time. It's less performant than advanced sorting algorithms, but it can still have some
+                        advantages: it's really easy to implement and it's efficient on small data structures almost
+                        sorted.
+                        The algorithm divides the data structure in two sublists: a sorted one, and one still to sort.
+                        Initially, the sorted sublist is made up of just one element and it gets progressively filled.
+                        For every iteration, the algorithm picks an element on the unsorted sublist and inserts it at
+                        the right place in the sorted sublist.</p>
+                        <div class="flex border-t border-gray-800 py-2">
+                            <span class="text-gray-500">Time Complexity </span>
+                            <span class="ml-auto text-white">O(n)</span>
+                        </div>
+                        <div class="flex border-t border-gray-800 py-2">
+                            <span class="text-gray-500">Stability</span>
+                            <span class="ml-auto text-white">Unstable</span>
+                        </div>
+                        <div class="flex">
+                            <span class="title-font font-medium text-2xl text-white">Simulations</span>
+                            <button
+                                class="flex ml-auto text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Try</button>
+                        </div>
+                </div>
+                <video alt="Insertion Sort" class="px-20 aspect-ratio: 16/9 object-cover object-center rounded items-center justify-center h-screen" src="{% static 'video/Insertion.mp4' %}" preload="auto" control autoplay muted id="autoplay">
+                </div>
+            </div>
+        </section>
+        {% endblock content %}

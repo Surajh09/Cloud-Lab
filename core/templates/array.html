@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<body>
+    
+                <section>
+                  <div class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+                    <div class="container px-5 py-24 mx-auto">
+                      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                        <div class="lg: w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+                          <h1 class="text-white text-4xl title-font font-medium mb-4">ARRAY</h1>
+                          <div class="flex mb-4">
+                            <a class="flex-grow text-green-400 border-b-2 border-green-500 py-2 text-lg px-1">AIM</a>
+                            <a class="flex-grow border-b-2 border-gray-800 py-2 text-lg px-1">THEORY</a>
+                            <a class="flex-grow border-b-2 border-gray-800 py-2 text-lg px-1">STIMULATION</a>
+                          </div>
+                          <p class="leading-relaxed mb-4"> AIM :To study and understand the concept of array and implemnet it .</p>
+                          <h3 class="text-white text-2xl title-font font-medium mb-4">THEORY</h3>
+                          <P> an array is a data structure consisting of a collection of elements  of same memory size, each identified by at least one array index or key. An array is stored such that the position of each element can be computed from its index tuple by a mathematical formula.The term "array" may also refer to an array data type, a kind of data type provided by most high-level programming languages that consists of a collection of values or variables that can be selected by one or more indices computed at run-time. Array types are often implemented by array structures; however, in some languages they may be implemented by hash tables, linked lists, search trees, or other data structures.
+                            
+                            The term is also used, especially in the description of algorithms, to mean associative array or "abstract array", a theoretical computer science model  intended to capture the essential properties of arrays.</p>
+                            <div class="flex border-t border-gray-800 py-2">
+                              <span class="text-gray-500">Time complexity </span>
+                            <span class="ml-auto text-white">O(1)</span>
+                          </div>
+                          <div class="flex border-t border-gray-800 py-2">
+                            <span class="text-gray-500">Tpye of datatype</span>
+                            <span class="ml-auto text-white">Dynamic</span>
+                          </div>
+                          <div class="flex">
+                            <button class="flex ml-auto text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">TRY</button>
+                          </div>
+                      </div>
+                      <video alt="Array" class="lg: w-240 w-full lg:h-auto h-120 object-cover object-center rounded" src="{% static '' %}" preload="auto" control autoplay id="autoplay">
+                  </div>
+              </div>
+{% endblock content %}

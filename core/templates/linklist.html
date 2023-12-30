@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<body>
+                <section>
+                  <div class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+                    <div class="container px-5 py-24 mx-auto">
+                      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                        <div class="lg: w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+                          <h1 class="text-white text-4xl title-font font-medium mb-4">LINKED LIST</h1>
+                          <div class="flex mb-4">
+                            <a class="flex-grow text-green-400 border-b-2 border-green-500 py-2 text-lg px-1">AIM</a>
+                            <a class="flex-grow border-b-2 border-gray-800 py-2 text-lg px-1">THEORY</a>
+                            <a class="flex-grow border-b-2 border-gray-800 py-2 text-lg px-1">STIMULATION</a>
+                          </div>
+                          <p class="leading-relaxed mb-4"> AIM :To study and understand the concept of link list in data structure and implemnet it .</p>
+                          <h3 class="text-white text-2xl title-font font-medium mb-4">THEORY</h3>
+                          <P> A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations.
+                          </p>
+                            <p>A linked list is a collection of “nodes” connected together via links. These nodes consist of the data to be stored and a pointer to the address of the next node within the linked list. In the case of arrays, the size is limited to the definition, but in linked lists, there is no defined size. Any amount of data can be stored in it and can be deleted from it.
+
+                                There are three types of linked lists <br>
+                                
+                                Singly Linked List − The nodes only point to the address of the next node in the list.<br>
+                                
+                                Doubly Linked List − The nodes point to the addresses of both previous and next nodes.<br>
+                                
+                                Circular Linked List − The last node in the list will point to the first node in the list. It can either be singly linked or doubly linked.<br>
+                                
+                                </p>
+                          <div class="flex border-t border-gray-800 py-2">
+                            <span class="text-gray-500">Time complexity </span>
+                            <span class="ml-auto text-white">O(n)</span>
+                          </div>
+                          <div class="flex border-t border-gray-800 py-2">
+                            <span class="text-gray-500">Tpye of datatype</span>
+                            <span class="ml-auto text-white">Dynamic</span>
+                          </div>
+                          <div class="flex">
+                            <span class="title-font font-medium text-2xl text-white">Simulation</span>
+                            <button class="flex ml-auto text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">TRY</button>
+
+    
+              
+                          </div>
+                        </div>
+                        <img alt="Linked List" class="lg:w-1/3 w-full lg:h-auto h-45 object-cover object-center rounded" src="">
+                      </div>
+                    </div></section>
+                 
+                
+                    
+
+    
+                    {% endblock content %}
+                  </body>
