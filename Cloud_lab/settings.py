@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "hfkjwhfo3wu9ruwuhfiejfo"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = "True"
+DEBUG = "False"
 
 ALLOWED_HOSTS = ["cloud-lab-t8hn.onrender.com"]
 
