@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "hfkjwhfo3wu9ruwuhfiejfo"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get("Debug", "False").lower()=="True"
+DEBUG = False
 
-ALLOWED_HOSTS = [os.environ.get("ALLOWED_HOST").split(" ")]
+ALLOWED_HOSTS = ["cloud-lab-t8hn.onrender.com"]
 
 # Application definition
 
