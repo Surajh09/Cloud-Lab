@@ -14,7 +14,7 @@ urlpatterns = [
     path('insertion/', insertion_view),
     path('assesment/', assesment_view),
     path('array/', array_view),
-    path('Login/', login_view),
+    path('login/', login_view),
     path('about/', aboutUs_view),
     path('linkedlist/', linkedlist_view),
     path('stack/', stack_view),
