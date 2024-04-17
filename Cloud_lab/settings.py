@@ -26,7 +26,7 @@ SECRET_KEY = "hfkjwhfo3wu9ruwuhfiejfo"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = "False"
 
-ALLOWED_HOSTS = ["cloud-lab-t8hn.onrender.com"]
+ALLOWED_HOSTS = ["DSA-Lab-Surajh09.onrender.com", "localhost"]
 
 # Application definition
 
@@ -83,7 +83,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
