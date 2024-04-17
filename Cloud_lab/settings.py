@@ -26,7 +26,7 @@ SECRET_KEY = "hfkjwhfo3wu9ruwuhfiejfo"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = "False"
 
-ALLOWED_HOSTS = ["DSA-Lab-Surajh09.onrender.com", "localhost"]
+ALLOWED_HOSTS = ["dsa-lab-surajh09.onrender.com", "localhost"]
 
 # Application definition
 
